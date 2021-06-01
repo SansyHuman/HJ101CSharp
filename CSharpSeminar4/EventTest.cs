@@ -49,5 +49,16 @@ namespace CSharpSeminar4
 
             EventTestClass.InvokeEvent("Hello world!");
         }
+
+        public static void TestLambdaEvent()
+        {
+            EventTestClass.events += (message) => { Console.WriteLine(message); };
+            // 파라미터가 하나인 경우 괄호 생략 가능
+            EventTestClass.events += message => { Console.WriteLine(message.Length); };
+            // 코드가 하나인 경우 중괄호 생략 가능
+            EventTestClass.events += message => Console.WriteLine(message.Reverse().ToArray());
+
+            EventTestClass.InvokeEvent("Hello world!");
+        }
     }
 }

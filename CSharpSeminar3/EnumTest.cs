@@ -14,6 +14,13 @@ namespace CSharpSeminar3
         ReadWrite
     }
 
+    public static class Option2
+    {
+        public const int None = 0;
+        public const int Read = 1;
+
+    }
+
     class EnumTest
     {
         public static void TestEnum()

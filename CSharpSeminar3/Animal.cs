@@ -191,6 +191,12 @@ namespace CSharpSeminar3
     }
     */
 
+    struct Student
+    {
+        public string name;
+        public int number;
+        public string birthday;
+    }
     
     abstract class Animal
     {

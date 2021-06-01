@@ -6,7 +6,7 @@ namespace CSharpSeminar4
     {
         static void Main(string[] args)
         {
-            EventTest.TestEvent();
+            ClosureTest.TestClosureList();
         }
     }
 }

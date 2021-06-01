@@ -10,7 +10,7 @@ namespace CSharpSeminar
     {
         public static void TestConditionalBranch()
         {
-            int a = 15;
+            int a = 30;
             // if 뒤의 논리식의 값이 true라면 뒤의 내용을 실행
             // if 뒤의 코드가 하나라면 중괄호 생략 가능
             if (a < 5)
@@ -28,14 +28,14 @@ namespace CSharpSeminar
 
         public static void TestTernaryOperator()
         {
-            int a = 153;
+            int a = 14;
             string eval = a % 7 == 0 ? "a is multiple of 7." : "a is not multiple of 7.";
             Console.WriteLine(eval);
         }
 
         public static void TestSwitch()
         {
-            int n = 3;
+            int n = 5;
 
             switch (n)
             {

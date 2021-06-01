@@ -6,6 +6,7 @@ namespace CSharpSeminar3
     {
         static void Main(string[] args)
         {
+            // MethodOverloadingTest.TestOverloading();
             /*
             Animal duck = new Animal("Duck", 2, 2);
 
@@ -28,7 +29,7 @@ namespace CSharpSeminar3
             Animal duck = new Duck();
             duck.MakeSound();
             duck.Die();
-
+            
             if (duck is Duck duck2)
             {
                 duck2.MakeSound();
@@ -42,6 +43,8 @@ namespace CSharpSeminar3
                 duck3.Die();
             }
             */
+
+            
 
             EnumTest.TestEnum();
         }

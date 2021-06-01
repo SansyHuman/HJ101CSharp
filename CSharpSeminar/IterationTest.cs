@@ -25,7 +25,7 @@ namespace CSharpSeminar
 
         public static void TestDoWhile()
         {
-            int a = 1;
+            int a = 101;
             int sum = 0;
 
             do // 뒤의 내용을 한번은 무조건 실행
@@ -52,6 +52,7 @@ namespace CSharpSeminar
         public static void TestForEach()
         {
             int[] numArr = { 7, 9, 5, 1, 2, 5, 6, 8, 4, 1 };
+
             foreach(int num in numArr)
             {
                 Console.Write(num);

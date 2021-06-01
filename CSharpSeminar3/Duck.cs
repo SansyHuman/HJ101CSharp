@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpSeminar3
 {
+    
     class Duck : Animal
     {
         public Duck() : base("Duck", 2, 2)
@@ -34,4 +35,5 @@ namespace CSharpSeminar3
             throw new NotImplementedException();
         }
     }
+    
 }
